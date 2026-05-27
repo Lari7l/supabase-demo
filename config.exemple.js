@@ -1,0 +1,2 @@
+const SUPABASE_URL = 'SUA_URL'
+const SUPABASE_KEY = 'SUA_KEY'

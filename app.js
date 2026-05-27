@@ -1,10 +1,4 @@
-const SUPABASE_URL = 'SUA_URL'
-const SUPABASE_KEY = 'SUA_KEY'
-
-const client = supabase.createClient(
-  SUPABASE_URL,
-  SUPABASE_KEY
-)
+const client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
 
 const taskList = document.getElementById('taskList')
 
